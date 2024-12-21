@@ -1,7 +1,11 @@
 p,h1,h5 {font-family: monospace;
 text-align: center;}
 
-body {background-color: black;}
+body {
+
+    background-color: black;
+
+}
 h1   {
     color: chartreuse;
 }
@@ -11,4 +15,12 @@ p    {
 }
 a   {
     color: #00ceff;
+}
+body.solid {
+    max-width: 30%;
+    margin: 10% auto;
+    outline: 8px ridge chartreuse;
+    border-radius: 2rem;
+    outline-offset: 40px;
+
 }
