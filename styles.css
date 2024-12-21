@@ -18,7 +18,7 @@ a   {
 }
 body.solid {
     max-width: 30%;
-    margin: 10% auto;
+    margin: 5% auto;
     outline: 8px ridge chartreuse;
     border-radius: 2rem;
     outline-offset: 40px;
