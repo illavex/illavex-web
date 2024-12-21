@@ -1,0 +1,14 @@
+p,h1,h5 {font-family: monospace;
+text-align: center;}
+
+body {background-color: black;}
+h1   {
+    color: chartreuse;
+}
+h5   {color: #ff58b0;}
+p    {
+    color: chartreuse;
+}
+a   {
+    color: #00ceff;
+}
