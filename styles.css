@@ -19,7 +19,7 @@ a   {
 body.solid {
     max-width: 30%;
     margin: 5% auto;
-    outline: 8px ridge chartreuse;
+    outline: 8px ridge #00ceff;
     border-radius: 2rem;
     outline-offset: 40px;
 
