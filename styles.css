@@ -1,10 +1,37 @@
-p,h1,h5 {font-family: monospace;
-text-align: center;}
+@import url(https://db.onlinewebfonts.com/c/fbc2833bec27d0fba9ea369cae2bbeaf?family=Pixelon);
+@font-face {
+    font-family: "Pixelon";
+    src: url("https://db.onlinewebfonts.com/t/fbc2833bec27d0fba9ea369cae2bbeaf.eot");
+    src: url("https://db.onlinewebfonts.com/t/fbc2833bec27d0fba9ea369cae2bbeaf.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/fbc2833bec27d0fba9ea369cae2bbeaf.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/fbc2833bec27d0fba9ea369cae2bbeaf.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/fbc2833bec27d0fba9ea369cae2bbeaf.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/fbc2833bec27d0fba9ea369cae2bbeaf.svg#Pixelon")format("svg");
+}
+
+
+
+body {
+    background: url() no-repeat center center fixed;
+    background-size: cover;
+}
+p,h1,h5 {
+
+    font-family: "Pixelon";
+    text-align: center;
+}
 
 body {
 
     background-color: black;
+    background-image: href('https://i.sstatic.net/kx8MT.gif');
+    background-size: cover;
 
+
+
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
 h1   {
     color: chartreuse;
@@ -19,8 +46,27 @@ a   {
 body.solid {
     max-width: 30%;
     margin: 5% auto;
-    outline: 8px ridge #00ceff;
-    border-radius: 2rem;
+    outline: 2px solid chartreuse;
     outline-offset: 40px;
 
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    display: block;
+}
+
+section.block {
+    vertical-align: top;
+    -moz-box-align: center;
+    width: 18%;
+    margin: 10px 1%;
+    padding: 0.5%;
+    display: inline-block;
+    border: 1px solid chartreuse;
+    background: black;
+    height: 200px;
 }
