@@ -14,6 +14,10 @@
 body {
     background: black url('https://github.com/illavex/illavex-web/blob/main/media/background.gif?raw=true') no-repeat fixed center center;
     background-size: cover;
+    min-height: 100vh;
+    margin: 0 10px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .block {
@@ -34,19 +38,28 @@ body {
 }
 
 .footer {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    column-gap: 2em;
-    border: 2px;
-}
-.footer > * {
-    flex: 1;
-    padding: 20px;
-    margin-bottom: 0;
-    border: 2px solid chartreuse;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
     background-color: black;
-    align-self: flex-end;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid chartreuse;
+}
+
+main {
+    flex: 1;
+}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10%
+
 }
 
 p,h1,h3,h5 {
@@ -72,11 +85,7 @@ body.solid {
 
 }
 
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color: black;
-    color: white;
-    display: block;
+.block_img {
+    height: 70%;
+    width: 70%;
 }
-
