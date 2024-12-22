@@ -12,26 +12,13 @@
 
 
 body {
-    background: url() no-repeat center center fixed;
+    background: url('https://github.com/illavex/illavex-web/blob/main/media/background.gif?raw=true') no-repeat center center fixed;
     background-size: cover;
 }
 p,h1,h5 {
 
-    font-family: "Pixelon";
+    font-family: "Pixelon", serif;
     text-align: center;
-}
-
-body {
-
-    background-color: black;
-    background-image: href('https://i.sstatic.net/kx8MT.gif');
-    background-size: cover;
-
-
-
-    height: 100vh;
-    padding:0;
-    margin:0;
 }
 h1   {
     color: chartreuse;
