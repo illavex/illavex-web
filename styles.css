@@ -21,20 +21,32 @@ body {
     flex-wrap: wrap;
     row-gap: 10px;
     column-gap: 2em;
-    border: 2px dotted white;
+    border: 2px;
+    justify-content: space-between;
 }
 
 .block > * {
     flex: 1;
     padding: 20px;
+
     border: 2px solid chartreuse;
     background-color: black;
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+    border: 2px;
+}
+.footer > * {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 0;
+    border: 2px solid chartreuse;
+    background-color: black;
+    align-self: flex-end;
 }
 
 p,h1,h3,h5 {
